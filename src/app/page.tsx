@@ -92,8 +92,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className='col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit'>
+{/* no need for col-span-full class here */}
+          <div className=' lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit'>
             <div className='relative md:max-w-xl'>
               <img
                 src='/your-image.png'
